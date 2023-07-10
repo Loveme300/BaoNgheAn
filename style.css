@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Oswald;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #343a40;
+    text-align: left;
+    background-color: #fff;
+}
+.story_thumb::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 125px;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 9;
+}
+.popular-news {
+    background: #fff3cd;
+    border: 1px solid #ffe69c;
+}
+.popular-news .box-content {
+    border-top: 1px solid;
+    border-color: rgba(0,0,0,.1);
+}
+
+.box-tag .box-content a {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 4px 12px 4px 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212529;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.banner-show a{
+    color: #212529;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.short-video .box-heading::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.box-story .story:first-child {
+    margin-top: 0;
+    border-top: none;
+    padding-top: 0;
+}
+.box-story .story {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #ddd;
+}
+.box-story .story_heading a {
+    display: block;
+    transition: .5s;
+    overflow: hidden;
+}
+.box-story .box-content {
+    margin-top: 12px;
+    padding: 0px;
+    /* border-top: 1px solid; */
+    border-color: rgba(0,0,0,.1);
+}
+
+.page-footer p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.page-footer .text-bold {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    display: block;
+}
+
+.list-social::before {
+    left: 0;
+    position: absolute;
+    content: "";
+    width: calc(50% - 290px);
+    height: 1px;
+    top: 50%;
+    transform: translateY(50%);
+    background: #e9ecef;
+}
+
+.list-social::after {
+    right: 0;
+    position: absolute;
+    content: "";
+    width: calc(50% - 290px);
+    height: 1px;
+    top: 50%;
+    transform: translateY(50%);
+    background: #e9ecef;
+}
+
+.prevArrow {
+    background: url(/img/control-left.png) center center/74px no-repeat;
+}
+.nextArrow {
+    background: url(/img/control-right.png) center center/74px no-repeat;
+}
+
+

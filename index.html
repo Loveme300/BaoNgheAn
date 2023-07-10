@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Báo Nghệ An</title>
+</head>
+
+<body>
+  <header class="site-header ">
+    <div class="h-[35px] bg-white" style="box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);">
+      <div class="container flex justify-between items-center w-[1319px] py-0 px-4 mx-auto">
+        <p id="date" class="text-sm font-normal mb-0"></p>
+        <div class="items-center flex">
+          <ul class="mb-0 items-center flex">
+            <li class="list-none" style="border-left: 1px solid #e9ecef;">
+              <a class="text-sm py-0 px-2 font-normal bg-transparent" style="text-decoration: none;" href="">Báo Nghệ An</a>
+            </li>
+            <li class="list-none" style="border-left: 1px solid #e9ecef;">
+              <a class="text-sm py-0 px-2 font-normal bg-transparent" style="text-decoration: none;" href="">Hotline: (023)83.588138</a>
+            </li>
+            <li class="list-none" style="border-left: 1px solid #e9ecef;">
+              <a class="text-sm py-0 px-2 font-normal bg-transparent" style="text-decoration: none;" href="">Mail gửi tòa soạn</a>
+            </li>
+            <li class="list-none" style="border-left: 1px solid #e9ecef;">
+              <a class="text-sm py-0 px-2 font-normal bg-transparent" style="text-decoration: none;" href="">Liên hệ đặt báo</a>
+            </li>
+            <li class="list-none" style="border-left: 1px solid #e9ecef;">
+              <a class="text-sm py-0 px-2 font-normal bg-transparent" style="text-decoration: none;" href="">Quảng cáo</a>
+            </li>
+          </ul>
+          <div class="my-0 mx-5 flex items-center w-5 h-5 flex items-center justify-center">
+            <a class="" href="" style="margin-right: 5px;"><i class="fa-brands fa-square-facebook"
+                style="color: #3b5998;"></i></a>
+            <a href=""><i class="fa-brands fa-youtube" style="color: #ff0808;"></i></a>
+          </div>
+          <div class="relative mb-[3px]">
+            <input type="text" placeholder="Tìm kiếm"
+              class="w-[206px] h-[28px] rounded py-2 pr-9 pl-3 border-none text-sm text-black"
+              style="background-color: #fff3cd;">
+            <i
+              class="fa-solid fa-magnifying-glass absolute right-[5px] p-1.5 top-1 cursor-pointer text-base font-bold "></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center justify-center h-[170px]"
+      style="background: #fffaec url(./img/bg-logo.png) center center/1822px 170px no-repeat;">
+      <div class="container w-[1319px] max-w-[1319px] py-0 px-4 mx-auto">
+        <h1>
+          <a href="" title="Báo Nghệ An điện tử - Tin tức cập nhật trong ngày"
+            class="h-[114px] w-[283px] block my-0 mx-auto p-[81px]"
+            style="background: url(./img/logo.png) center center/283px 114px no-repeat;"></a>
+        </h1>
+      </div>
+    </div>
+    <div class="h-9 bg-red-600 flex items-center container w-full ">
+      <ul class="container w-[1200px] max-w-[1200px] mx-auto relative flex items-center mr-[22px]">
+        <li class="relative list-none">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[1px] py-0 px-[1px] whitespace-nowrap "
+            href style="color: #fff; background-color: rgba(0, 0, 0, .2);"><i class="fa-solid fa-house"
+              style="color: #fff;"></i></a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap text-base "
+            style="color: #fff; font-size: 15px" href>Thời sự</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Xây dựng Đảng</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Nghe An News</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Kinh tế</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Quốc tế</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Xã hội</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Phóng sự</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Emagazine</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Giáo dục</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Pháp luật</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Thể thao</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Bạn cần biết</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Short video</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Truyền hình</a>
+        </li>
+        <li class="relative list-none hover:bg-rose-700/75">
+          <a class="font-medium text-sm uppercase flex items-center h-9 my-0 mx-[5px] py-0  whitespace-nowrap "
+            style="color: #fff; font-size: 15px" href>Đọc báo in</a>
+        </li>
+        <li class="humburger">
+          <a class="" href="" style="margin: 5px;"><i class="fa-solid fa-bars" style="color: #fff;"></i></a>
+        </li>
+      </ul>
+    </div>
+    </header>
+
+  <div class="mt-6 pb-[50px] ">
+    <div class="container w-[1200px] max-w-[1200px] py-0 px-4 mx-auto">
+      <div class="grid grid-cols-12">
+        <div class="col-span-3 pr-[18px]">
+          <article class="mt-0 pt-0 overflow-auto">
+            <figure class="w-[130px] h-[90px] block mr-4 float-left overflow-hidden">
+              <a class="flex w-full" style="transition: .5s;" href="">
+                <img class="w-full indent-[-9999px] align-middle border-none"
+                  src="./img/tong-bi-thu-ren-luyen-can-bo-quan-doi-theo-tinh-than-7-dam-1206-7061.jpg" alt="">
+              </a>
+            </figure>
+            <h2 class="text-justify">
+              <a class="font-bold block overflow-hidden text-base" href="" style="transition: .5s; color: #212529;">Tổng Bí thư Nguyễn Phú Trọng: Rèn luyện cán bộ quân đội theo tinh thần '7 dám'</a>
+            </h2>
+          </article>
+
+          <article class="mt-4 pt-4 overflow-auto" style="border-top: 1px solid #e9ecef;">
+            <figure class="w-[130px] h-[90px] block mr-4 float-left overflow-hidden">
+              <a class="flex w-full" style="transition: .5s;" href="">
+                <img class="w-full indent-[-9999px] align-middle border-none"
+                  src="./img/bna-pham-kim-tien-gioi-thieu-san-pham-sen-voi-du-khach-den-tham-que-bac-9422.png" alt="">
+              </a>
+            </figure>
+            <h2 class="text-justify">
+              <a class="font-bold block overflow-hidden text-base" href="" style="transition: .5s; color: #212529;">Nhiều sản phẩm OCOP loay hoay trong khâu tiêu thụ</a>
+            </h2>
+          </article>
+
+          <article class="mt-4 pt-4 overflow-auto" style="border-top: 1px solid #e9ecef;">
+            <figure class="w-[130px] h-[90px] block mr-4 float-left overflow-hidden">
+              <a class="flex w-full" style="transition: .5s;" href="">
+                <img class="w-full indent-[-9999px] align-middle border-none" src="./img/1-8601.jpg" alt="">
+              </a>
+            </figure>
+            <h2 class="text-justify">
+              <a class="font-bold block overflow-hidden text-base" href="" style="transition: .5s; color: #212529;">Nghệ An ngày nắng nóng gay gắt, chiều tối có mưa rào và dông</a>
+            </h2>
+          </article>
+
+          <article class="mt-4 pt-4 overflow-auto" style="border-top: 1px solid #e9ecef;">
+            <figure class="w-[130px] h-[90px] block mr-4 float-left overflow-hidden">
+              <a class="flex w-full" style="transition: .5s;" href="">
+                <img class="w-full indent-[-9999px] align-middle border-none" src="./img/bna-dsad-5661.png" alt="">
+              </a>
+            </figure>
+            <h2 class="text-justify">
+              <a class="font-bold block overflow-hidden text-base" href="" style="transition: .5s; color: #212529;">Sân bay Vinh chính thức khai thác trở lại vào sáng nay 4/7</a>
+            </h2>
+          </article>
+
+          <article class="mt-4 pt-4 overflow-auto" style="border-top: 1px solid #e9ecef;">
+            <figure class="w-[130px] h-[90px] block mr-4 float-left overflow-hidden">
+              <a class="flex w-full" style="transition: .5s;" href="">
+                <img class="w-full indent-[-9999px] align-middle border-none" src="./img/y-kien-cu-tri-add-708.jpg"
+                  alt="">
+              </a>
+            </figure>
+            <h2 class="text-justify">
+              <a class="font-bold block overflow-hidden text-base" href="" style="transition: .5s; color: #212529;">Tâm huyết của cử tri gửi đến kỳ họp Hội đồng nhân dân tỉnh</a>
+            </h2>
+          </article>
+          <div>
+
+          </div>
+        </div>
+
+        <div class="col-span-6">
+          <div class=" py-0 px-[15px]" style="border-right: 1px solid #e9ecef; border-left: 1px solid #e9ecef;">
+            <article class="overflow-hidden">
+              <figure class="w-full min-h-[300px] overflow-hidden">
+                <a class="flex w-full" style="transition: .5s;" href="">
+                  <img class="w-full indent-[-9999px] align-middle border-none" src="./img/bna-co1-6673.jpg" alt="">
+                </a>
+              </figure>
+              <h2>
+                <a href="" class="font-bold p-3 overflow-hidden block text-xl" style="color: #212529; transition: .5s;">Có biên chế, nhưng gần 1.000 giáo viên mầm non vẫn ngóng chờ tuyển dụng
+                </a>
+              </h2>
+              <div class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                <p>(Baonghean.vn) - Mặc dù đã có văn bản hướng dẫn, yêu cầu các địa phương phải hoàn thành việc tuyển
+                  dụng các giáo viên mầm non hợp đồng dạng 06 và 09 trước ngày 30/1/2023.
+                  Tuy nhiên, cho đến nay vẫn còn 11 địa phương chưa tiến hành, khiến gần 1.000 giáo viên tiếp tục chờ
+                  đợi được vào biên chế.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="col-span-3">
+          <div class="pl-4">
+            <div class="mt-0">
+              <div class="p-3 bg-white mb-6" style="border:  1px solid #e21f26;">
+                <h3>
+                  <div class="font-medium leading-5 text-base block" style="color: #e21f26;">
+                    Hoạt động của
+                    <span class="font-bold uppercase block pt-1 text-xl" style="color: #e21f26; line-height: 33px;">Thường trực tỉnh ủy</span>
+                  </div>
+                </h3>
+                <div class="mt-4 max-h-[405px] overflow-x-hidden">
+                  <article class="mt-0 pt-0 overflow-auto">
+                    <figure class="w-[80px] h-[60px] mr-3 float-left overflow-hidden ">
+                      <a href="" class="flex w-full " style="transition: .5s;">
+                        <img class="w-full indent-[-9999px] align-middle " src="./img/anh-quy-1-4962.jpg" alt="">
+                      </a>
+                    </figure>
+                    <h2>
+                      <a class="text-sm font-normal block overflow-hidden" style="transition: .5s;  line-height: 160%; color: #212529;" href="">
+                        Đại biểu Quốc hội, Hội đồng nhân dân tỉnh Nghệ An tiếp xúc cử tri thành phố Vinh</a>
+                    </h2>
+                  </article>
+
+                  <article class="mt-3 pt-3 overflow-auto" style="border-top: 1px solid #e9ecef;">
+                    <figure class="w-[80px] h-[60px] mr-3 float-left overflow-hidden">
+                      <a href="" class="flex w-full" style="transition: .5s;">
+                        <img class="w-full indent-[-9999px] align-middle" src="./img/anh-thong-1-7467.jpg" alt="">
+                      </a>
+                    </figure>
+                    <h2>
+                      <a class="text-sm font-normal block overflow-hidden" style="transition: .5s;  line-height: 160%; color: #212529;" href="">
+                        Phó Bí thư Thường trực Tỉnh ủy Nguyễn Văn Thông chúc mừng Báo Nghệ An và Hội Nhà báo tỉnh</a>
+                    </h2>
+                  </article>
+
+                  <article class="mt-3 pt-3 overflow-auto" style="border-top: 1px solid #e9ecef;">
+                    <figure class="w-[80px] h-[60px] mr-3 float-left overflow-hidden">
+                      <a href="" class="flex w-full" style="transition: .5s;">
+                        <img class="w-full indent-[-9999px] align-middle" src="./img/anh-trung-1-7271.jpg" alt="">
+                      </a>
+                    </figure>
+                    <h2>
+                      <a class="text-sm font-normal block overflow-hidden" style="transition: .5s;  line-height: 160%; color: #212529;" href="">
+                        Chủ tịch UBND tỉnh Nghệ An: Phấn đấu hoàn thành mức cao nhất các mục tiêu, chỉ tiêu đề ra</a>
+                    </h2>
+                  </article>
+
+                  <article class="mt-3 pt-3 overflow-auto" style="border-top: 1px solid #e9ecef;">
+                    <figure class="w-[80px] h-[60px] mr-3 float-left overflow-hidden">
+                      <a href="" class="flex w-full" style="transition: .5s;">
+                        <img class="w-full indent-[-9999px] align-middle" src="./img/anh-hieu-1-163.jpg" alt="">
+                      </a>
+                    </figure>
+                    <h2>
+                      <a class="text-sm font-normal block overflow-hidden" style="transition: .5s; line-height: 160%; color: #212529;" href="">
+                        Phó Bí thư Tỉnh ủy Hoàng Nghĩa Hiếu làm việc với Ban Thường vụ Huyện ủy Quỳnh Lưu</a>
+                    </h2>
+                  </article>
+                </div>
+              </div>
+              <div class="mb-6 flex justify-center flex-col text-center">
+                <div class="w-[277px] mx-auto overflow-hidden relative">
+                  <a href="">
+                    <img class="w-full overflow-hidden"
+                      src="./img/320635015-701939928039371-6703414343157305599-n-3733.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-12 pt-5">
+        <div class="col-span-3 relative mr-[5px]">
+          <div class="story_thumb">
+            <a href="" class="flex w-full" style="transition: .5s;">
+              <img class="w-full h-[125px] indent-[-9999px] align-middle" src="./img/quoc-hoi-3854.jpg" alt="">
+            </a>
+          </div>
+          <h2>
+            <a href="" class="py-[13px] px-[22px] font-normal flex items-center text-center text-white absolute top-0 h-full w-full justify-center z-10 overflow-hidden text-xl">Kỳ họp thứ 5, Quốc hội khóa XV</a>
+          </h2>
+        </div>
+
+        <div class="col-span-3 relative mx-[5px]">
+          <div class="story_thumb">
+            <a href="" class="flex w-full" style="transition: .5s;">
+              <img class="w-full h-[125px] indent-[-9999px] align-middle"
+                src="./img/mot_goc_khu_cong_nghiep_vsip_na3672629_2112018187529_15220195521002_2832019.jpg" alt="">
+            </a>
+          </div>
+          <h2>
+            <a href="" class="py-[13px] px-[22px] font-normal flex items-center text-center text-white absolute top-0 h-full w-full justify-center z-10 overflow-hidden text-xl">Nghệ An thực hiện Nghị quyết 26 của Bộ Chính trị</a>
+          </h2>
+        </div>
+
+        <div class="col-span-3 relative mx-[5px]">
+          <div class="story_thumb">
+            <a href="" class="flex w-full" style="transition: .5s;">
+              <img class="w-full h-[125px] indent-[-9999px] align-middle" src="./img/image_9275782_2252022.jpg" alt="">
+            </a>
+          </div>
+          <h2>
+            <a href="" class="py-[13px] px-[22px] font-normal flex items-center text-center text-white absolute top-0 h-full w-full justify-center z-10 overflow-hidden text-xl">Bảo vệ nền tảng tư tưởng của Đảng</a>
+          </h2>
+        </div>
+
+        <div class="col-span-3 relative ml-[5px]">
+          <div class="story_thumb">
+            <a href="" class="flex w-full" style="transition: .5s;">
+              <img class="w-full h-[125px] indent-[-9999px] align-middle" src="./img/anh-bong-da-3685.jpg" alt="">
+            </a>
+          </div>
+          <h2>
+            <a href="" class="py-[13px] px-[22px] font-normal flex items-center text-center text-white absolute top-0 h-full w-full justify-center z-10 overflow-hidden text-xl">Giải bóng đá TN-NĐ Cúp Báo Nghệ An lần thứ 25 năm 2023</a>
+          </h2>
+        </div>
+      </div>
+
+      <div class="mt-6 ">
+        <div class="text-center">
+          <span class="font-normal text-5xl text-black text-center pointer-events-none block">Đa phương tiện</span>
+          <ul class="flex justify-center mt-1.5 relative list-social">
+            <li class="ml-0">
+              <a href="" class="font-bold text-base flex text-black">
+                <i class="fa-solid fa-tv mr-[5px] mt-[5px]" style="color: #000000;"></i>Truyền hình
+              </a>
+            </li>
+
+            <li class="ml-5">
+              <a href="" class="font-bold text-base flex text-black">
+                <i class="fa-solid fa-podcast mr-[5px] mt-[5px]" style="color: #000000;"></i>Podcast
+              </a>
+            </li>
+
+            <li class="ml-5">
+              <a href="" class="font-bold text-base flex text-black">
+                <i class="fa-solid fa-e mr-[5px] mt-[5px]" style="color: #000000;"></i>E-Magazine
+              </a>
+            </li>
+
+            <li class="ml-5">
+              <a href="" class="font-bold text-base flex text-black">
+                <i class="fa-brands fa-youtube mr-[5px] mt-[5px]" style="color: #000000;"></i>Kênh Youtube
+              </a>
+            </li>
+            <li class="ml-5">
+              <a href="" class="font-bold text-base flex text-black">
+                <i class="fa-solid fa-circle-play mr-[5px] mt-[5px]" style="color: #000000;"></i>Short video
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-[-80px] mb-[-70px] min-h-[350px] relative">
+          <span class="w-[74px] h-full block absolute top-[-30px] cursor-pointer left-[-78px] prevArrow" ></span>
+          <div class="p-[100px] relative block overflow-hidden" >
+            <div class="opacity-100 w-[4450px] relative top-0 right-[-60px] block mx-auto" style="transform: translate3d(-40px, 0px, 0px);">
+              <div class="w-[325px] mt-[30px] mb-0 mr-0 ml-[-30px] block float-left h-full min-h-[1px]">
+                <article class="overflow-auto">
+                  <figure class="w-[297px] h-[168px] relative m-0 overflow-hidden">
+                    <a href="" class="overflow-hidden w-full">
+                      <img class="w-full indent-[-9999px] block" src="./img/281-546.png" alt="">
+                    </a>
+                  </figure>
+                  <h2 class="">
+                    <a href="" class="max-w-[297px] font-bold text-base text-center pt-[12px] px-[12px] block overflow-hidden">Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVIII: Quang Anh 1</a>
+                  </h2>
+                </article>
+              </div>
+            </div>
+            <div class="opacity-100 w-[4450px] relative top-0 left-0 right-0 block mx-auto" style="transform: translate3d(12px, 0px, 0px);">
+              <div class="w-[360px] mx-0 block float-left h-full min-h-[1px]">
+                <article class="overflow-auto">
+                  <figure class=" relative m-0 overflow-hidden">
+                    <a href="" class="overflow-hidden w-full">
+                      <img class="w-full h-full indent-[-9999px] block" src="./img/bna-4082-01-3338.jpeg" alt="">
+                    </a>
+                  </figure>
+                  <h2 class="">
+                    <a href="" class="max-w-[297px] font-bold text-xl text-center pt-[12px] pl-[65px] pr-[10px] block overflow-hidden">Bí thư Tỉnh ủy, Chủ tịch HĐND tỉnh Thái Thanh Quý phát biểu bế mạc Kỳ họp thứ 14, HĐND tỉnh Nghệ An khóa XVIII</a>
+                  </h2>
+                </article>
+              </div>
+            </div>
+            <div class="opacity-100 w-[4450px] relative top-0 left-0 block mx-auto" style="transform: translate3d(60px, 0px, 0px);">
+              <div class="w-[325px] mt-[30px] mb-0 mr-0 ml-[-30px] block float-left h-full min-h-[1px]">
+                <article class="overflow-auto">
+                  <figure class="w-[297px] h-[168px] relative m-0 overflow-hidden">
+                    <a href="" class="overflow-hidden w-full">
+                      <img class="w-full indent-[-9999px] block" src="./img/quang-a-4158.png" alt="">
+                    </a>
+                  </figure>
+                  <h2 class="">
+                    <a href="" class="max-w-[297px] font-bold text-base text-center pt-[12px] px-[12px] block overflow-hidden">Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVIII: Quang Anh 3</a>
+                  </h2>
+                </article>
+              </div>
+            </div>
+          </div>
+          <span class="w-[74px] h-full block absolute top-[-30px] cursor-pointer right-[-100px] nextArrow" ></span>
+        </div>
+        
+      </div>
+
+      <div class="mt-2 flex justify-center flex-col text-center">
+        <div class="w-[728px] mx-auto">
+          <a href="">
+            <img class="w-full" src="./img/banner-2883.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="grid grid-cols-12 pt-5">
+        <div class="col-span-3 w-[250px]">
+          <section class="popular-news px-4 pt-5 pb-9">
+            <h3 class="">
+              <span class="pointer-events-none flex font-medium text-lg uppercase text-black items-center">
+                <i class="fa-solid fa-book-open mr-[12px]"></i> Tin đọc nhiều
+              </span>
+            </h3>
+            <div class="box-content mt-[12px] p-[15px] ">
+              <article class="text-lg mb-6" style="background: url(./img/icon-1.png) right top 8px/47px no-repeat;">
+                <h2 class="leading-6 text-left" style="color: #343a40;">
+                  <a class="" href="" title="Tổng thống Putin nói về cuộc chiến hỗn hợp toàn diện chống lại Nga">
+                    Tổng thống Putin nói về cuộc chiến hỗn hợp toàn diện chống lại Nga 
+                  </a>
+                </h2>
+              </article>
+              <article class="text-lg mb-6" style="background: url(./img/icon-2.png) right top 8px/47px no-repeat;">
+                <h2 class="leading-6 text-left" style="color: #343a40;">
+                  <a class="" href="" title="HĐND tỉnh Nghệ An quyết nghị cho 1 đại biểu thôi làm nhiệm vụ">
+                    HĐND tỉnh Nghệ An quyết nghị cho 1 đại biểu thôi làm nhiệm vụ
+                  </a>
+                </h2>
+              </article>
+              <article class="text-lg mb-6" style="background: url(./img/icon-3.png) right top 8px/47px no-repeat;">
+                <h2 class="leading-6 text-left" style="color: #343a40;">
+                  <a class="" href="" title="Cần tuyển hàng chục nhân sự vào Công ty cổ phần Xi măng Sông Lam">
+                    Cần tuyển hàng chục nhân sự vào Công ty cổ phần Xi măng Sông Lam
+                  </a>
+                </h2>
+              </article>
+              <article class="text-lg mb-6" style="background: url(./img/icon-4.png) right top 8px/47px no-repeat;">
+                <h2 class="leading-6 text-left" style="color: #343a40;">
+                  <a class="" href="" title="Tìm mọi ngõ ngách để vào tổ chức do Nga sáng lập, Mỹ và phương Tây vẫn có thể nhận thất bại">
+                    Tìm mọi ngõ ngách để vào tổ chức do Nga sáng lập, Mỹ và phương Tây vẫn có thể nhận thất bại 
+                  </a>
+                </h2>
+              </article>
+              <article class="text-lg mb-6" style="background: url(./img/icon-5.png) right top 8px/47px no-repeat;">
+                <h2 class="leading-6 text-left" style="color: #343a40;">
+                  <a class="" href="" title="Báo động nguy cơ lúa chết khô vì nước tưới bị xâm nhập mặn">
+                    Báo động nguy cơ lúa chết khô vì nước tưới bị xâm nhập mặn
+                  </a>
+                </h2>
+              </article>
+
+            </div>
+          </section>   
+        </div>
+    
+        <div class="col-span-6 ">
+          <div class="col-center w-[540px]">
+            <article class="mt-0 pt-0 border-t-0 overflow-auto" >
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/01-6286.jpg" alt="Các hộ dân tố cáo bị bà Hoàng Thị Thảo lừa góp "hụi". Ảnh T.H">
+                </a> 
+              </figure>
+              
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Vỡ hụi hàng chục tỷ đồng, cả trăm hộ dân điêu đứng </a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  Công an tỉnh Hà Tĩnh đang vào cuộc điều tra việc hàng trăm người dân huyện Kỳ Anh tố cáo bị một người phụ nữ lừa góp vốn, lấy lãi cao, sau đó vỡ nợ hàng chục tỷ đồng. 
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/bna-tuyen-truyen-2840.jpg" alt="Cảnh giác với các chiêu trò lừa đảo tinh vi trên không gian mạng">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Cảnh giác với các chiêu trò lừa đảo tinh vi trên không gian mạng </a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - Trong bối cảnh công nghệ thông tin ngày càng phát triển, sự ra đời các ứng dụng mạng xã hội như Facebook, Zalo… đã tạo điều kiện kết nối mọi người ở khắp nơi trên thế giới. 
+                  Nhưng đi kèm với những tiện ích, nhiều đối tượng lừa đảo với các thủ đoạn tinh vi đã xuất hiện… 
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/300799297-3184567205207144-2696597254596769329-n-5212.jpg" alt="Ông Trần Quang Dũng được bổ nhiệm Phó Giám đốc Trung tâm Đào tạo bóng đá trẻ Sông Lam Nghệ An">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Ông Trần Quang Dũng được bổ nhiệm Phó Giám đốc Trung tâm Đào tạo bóng đá trẻ Sông Lam Nghệ An</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - Ông Trần Quang Dũng - Phó Ban chuyên môn Trung tâm Đào tạo bóng đá trẻ Sông Lam Nghệ An vừa được bổ nhiệm trở thành Phó Giám đốc Trung tâm.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/1-9892.jpg" alt="Số 13653 ngày 5-7-2023">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Số 13653 ngày 5-7-2023</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - Số 13653 ngày 5-7-2023.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/baohiem-5802.jpg" alt="Sắp thanh tra thêm 10 doanh nghiệp bảo hiểm">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Sắp thanh tra thêm 10 doanh nghiệp bảo hiểm</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) -10 doanh nghiệp bảo hiểm nhân thọ, phi nhân thọ nằm trong kế hoạch thanh, kiểm tra của Bộ Tài chính nửa cuối năm nay.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/bna-2893-01-2435.jpeg" alt="6 tháng Nghệ An phát hiện 20 vụ, 91 bị can tham nhũng">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">6 tháng Nghệ An phát hiện 20 vụ, 91 bị can tham nhũng</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - 6 tháng đầu năm 2023, số vụ án, bị can tham nhũng được phát hiện (20 vụ/91 bị can) tăng mạnh so với số vụ án, bị can tham nhũng phát hiện cùng kỳ năm 2022.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/bna-z4489522631914-29ec834cf4fee72c7abfdf7cb33a1e23-4705.jpg" alt="Toàn thắng 2 trận, U13 Sông Lam Nghệ An sáng cửa vào Tứ kết Giải bóng đá Thiếu niên toàn quốc">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Toàn thắng 2 trận, U13 Sông Lam Nghệ An sáng cửa vào Tứ kết Giải bóng đá Thiếu niên toàn quốc</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) -Sáng 5/7, U13 Sông Lam Nghệ An do huấn luyện viên Lê Mạnh Huy dẫn dắt có trận đấu thứ hai tại vòng chung kết Giải bóng đá Thiếu niên toàn quốc 2023. 
+                  Các cầu thủ nhí xứ Nghệ tiếp tục giành chiến thắng sáng cửa vào Tứ kết.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/bna-nl2-6479.jpg" alt="Va chạm xe máy khiến 3 người thương vong">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Va chạm xe máy khiến 3 người thương vong</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - Sau va chạm giữa 2 chiếc xe máy, có 3 người bị thương vong. Vụ tai nạn giao thông vừa xảy ra tại xã Thanh An, huyện Thanh Chương.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/bna-3058-01-5249.jpeg" alt="Nghệ An có 8 tồn tại trong công tác bảo vệ môi trường">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Nghệ An có 8 tồn tại trong công tác bảo vệ môi trường</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - Tại Kỳ họp thứ 14, HĐND tỉnh khoá XVIII, đồng chí Cao Tiến Trung - Uỷ viên Thường trực HĐND tỉnh, Trưởng ban Kinh tế - Ngân sách HĐND tỉnh, Phó trưởng Đoàn giám sát của HĐND tỉnh nêu 8 tồn tại trong công tác bảo vệ môi trường trên địa bàn tỉnh.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/capture-923.jpg" alt="Bộ Quốc phòng Ukraine gọi nước này là bãi thử vũ khí lý tưởng của phương Tây">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Bộ Quốc phòng Ukraine gọi nước này là bãi thử vũ khí lý tưởng của phương Tây</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - Bộ trưởng Quốc phòng Ukraine gọi nước này là bãi thử lý tưởng cho vũ khí của phương Tây.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/bna-anh-3-4135.jpg" alt="Bộ Tài chính kiểm tra công tác thực hiện dự án xây dựng Trung tâm huấn luyện Dự bị động viên tại Nghệ An">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Bộ Tài chính kiểm tra công tác thực hiện dự án xây dựng Trung tâm huấn luyện Dự bị động viên tại Nghệ An</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - Sáng 5/7, Đoàn công tác của Bộ Tài chính do đồng chí Đặng Quyết Tiến - Vụ trưởng Vụ Tài chính Quốc phòng và An ninh đặc biệt làm trưởng đoàn đã tiến hành kiểm tra công tác thực hiện dự án xây dựng Trung tâm huấn luyện Dự bị động viên của Bộ Chỉ huy Quân sự tỉnh Nghệ An.
+                </p>
+              </div>
+            </article>
+            <article class="mt-6 pt-0 border-t-0 overflow-auto" style="border-top: 1px solid #e9ecef;">
+              <figure class="float-left mr-4 w-[125px] h-[84px]">
+                <a class="flex w-full bg-transparent" style="transition: .5; color: #212529;" href="">
+                <img class="w-full indent-[-9999px] mt-2" style="transition: .5;" src="./img/bna-3-1350.jpg" alt="Gia cảnh khó khăn của cụ bà nuôi 2 cháu mồ côi">
+                </a> 
+              </figure>
+              <h2>
+                <a href="" class="font-medium text-xl block overflow-hidden " style="transition: .5s; line-height: 160%;">Gia cảnh khó khăn của cụ bà nuôi 2 cháu mồ côi</a>
+              </h2>
+              <div>
+                <time class="block text-sm font-normal" style="color: #adb5bd;">3 giờ trước</time>
+              </div>
+              <div class="font-normal text-lg mt-[8px]" style="line-height: 20px;color: #343a40;">
+                <p class="font-normal leading-5 pt-3 text-base block mb-0 overflow-hidden" style="color: #343a40;">
+                  (Baonghean.vn) - Hết côi cút nuôi con, giờ lại một mình nuôi 2 đứa cháu đang tuổi ăn học trong cảnh nghèo khó, bà Lê Thị Cường (69 tuổi) ở xã Ngọc Sơn (Thanh Chương) vẫn luôn cố gắng và hy vọng các cháu sẽ khôn lớn nên người.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+    
+        <div class="col-span-3 ">
+          <div class="w-[300px] overflow-hidden relative mx-auto">
+            <div class="w-[300px] h-[250px] max-w-full">
+              <a href="" target="_blank">
+                <img class="max-w-full overflow-hidden" src="./img/300x250-01-8090.png" alt="Banner Bắc Á Bank Tai tro">
+              </a>
+            </div>
+          </div>
+          <div class="mt-6 mb-6 w-[300px] relative mx-auto">
+            <div class="w-[300px] h-[250px] max-w-full">
+              <a href="" target="_blank">
+                <img class="max-w-full" style="overflow: hidden;" src="./img/bhxh-2023-8953.png" alt="Banner_BHXH">
+              </a>
+            </div>
+          </div>
+          <section class="box-heading px-4 pt-5 pb-9 w-[300px]" style="background: url(./img/bg-location_ver2.png); border: 1px solid #dee2e6;">
+            <h3 class="">
+              <a class="font-medium text-lg flex uppercase text-black items-center" href="" title="Tin địa phương">
+                <i class="fa-solid fa-map-location-dot mr-4"></i>Tin địa phương
+              </a>
+            </h3>
+            <div class="box-content">
+              <select class="font-semibold text-sm uppercase w-full mb-4 p-2" style="color: #343a40; background: #fff url(./img/arrow-down.png) center right 8px/7px no-repeat; appearance: none;">
+                <option value="1" class="">TP Vinh</option>
+                <option value="39">Thái Hòa</option>
+                <option value="40">Cửa Lò</option>
+                <option value="45">Hưng Nguyên</option>
+                <option value="46">Nghi Lộc</option>
+                <option value="49">Thanh Chương</option>
+              </select>
+              <div class="">
+                <article class="story">
+                  <figure class="w-20 h-[60px] mr-4 float-left">
+                    <a href="" class="w-full flex" style="transition: .5;"></a>
+                    <img src="./img/bna-anh-3-4135.jpg">
+                  </figure>
+                  <h3 class="mt-4 text-base font-normal">
+                    <a href="" style=" line-height: 160%; color: #212529; transition: .5s; overflow: hidden; display: block;">Bộ Tài chính kiểm tra công tác thực hiện dự án xây dựng Trung tâm huấn luyện Dự bị động viên tại Nghệ An</a>
+                  </h3>
+                </article>
+                <article class="story">
+                  <figure class="mt-2 h-[60px] mr-4 float-left">
+                    <a href="" class="w-full flex" style="transition: .5;"></a>
+                    <img src="./img/unnamed-1852.jpg">
+                  </figure>
+                  <h3 class="mt-2 text-base font-normal">
+                    <a href="" style=" line-height: 160%; color: #212529; transition: .5s; overflow: hidden; display: block;">Nhảy xuống hồ cứu bạn, nam thanh niên đuối nước thương tâm</a>
+                  </h3>
+                </article>
+                <article class="story">
+                  <figure class="mt-2 h-[60px] mr-4 float-left">
+                    <a href="" class="w-full flex" style="transition: .5;"></a>
+                    <img src="./img/bna-9-anh-pv-7996.jpg">
+                  </figure>
+                  <h3 class="mt-2 text-base font-normal">
+                    <a href="" style=" line-height: 160%; color: #212529; transition: .5s; overflow: hidden; display: block;">Bắt đối tượng mua bán 2 bánh heroin, 6.000 viên ma tuý tổng hợp</a>
+                  </h3>
+                </article>
+                <article class="story">
+                  <figure class="mt-2 h-[60px] mr-4 float-left">
+                    <a href="" class="w-full flex" style="transition: .5;"></a>
+                    <img src="./img/bna-anh-hoang-yen-1-7666.jpg">
+                  </figure>
+                  <h3 class="mt-2 text-base font-normal">
+                    <a href="" style=" line-height: 160%; color: #212529; transition: .5s; overflow: hidden; display: block;">Bệnh viện Sản Nhi Nghệ An phẫu thuật cứu trẻ sơ sinh bị xuất huyết não nguy kịch</a>
+                  </h3>
+                </article>
+                <article class="story">
+                  <figure class="mt-2 h-[60px] mr-4 float-left">
+                    <a href="" class="w-full flex" style="transition: .5;"></a>
+                    <img src="./img/bna-anh-thanh-chung-5-1-9413.jpg">
+                  </figure>
+                  <h3 class="mt-2 text-base font-normal">
+                    <a href="" style=" line-height: 160%; color: #212529; transition: .5s; overflow: hidden; display: block;">Nghệ An tổ chức sơ kết 5 năm thực hiện Nghị quyết số 24, số 29 và số 33 của Bộ Chính trị</a>
+                  </h3>
+                </article>
+              </div>
+              <a class="mt-4 font-semibold text-sm underline uppercase flex" style="color: #6c757d; justify-content: end;">Xem thêm</a>
+            </div>
+          </section>
+          <section class="box-think font-light h-[167px] mt-8 p-[20px]" style=" background: url(./img/think.png)  center center/300px no-repeat;;">
+            <h3 class="box-heading">
+              <a class="font-medium text-lg uppercase" style="color: #fff;" title="Suy ngẫm">Suy ngẫm</a>
+            </h3>
+            <div class="box-content mt-0">
+              <article class="story p-[8px] overflow-auto rounded" style="background: rgba(255,255,255,.9);">
+                <figure class="story_th w-[70px] h-[70px] rounded-[80px] mr-[14px] float-left" style="outline-offset: -3px; outline: 4px solid rgba(255,255,255,.7);">
+                  <a class="flex w-full" style="transition: .5s;" href="" title="Ăn xem nồi, ngồi xem hướng...">
+                  <img class="w-full indent-[-9999px]" style="transition: .5x;" src="./img/bna-mot-diem-kinh-doanh-tren-duong-le-mao-keo-dai-con-dua-ca-chau-cay-canh-go-muc-ra-de-ngay-long-duong-voi-muc-dich-khong-cho-do-xe-dn-42.jpg" alt="Ăn xem nồi, ngồi xem hướng...">
+                  </a>
+                </figure>
+                <h2 class="story_heading my-0">
+                  <a class="font-normal flex h-[70px] items-center text-lg" style="color: #212529;" title="Ăn xem nồi, ngồi xem hướng...">Ăn xem nồi, ngồi xem hướng...</a>
+                </h2>
+              </article>
+            </div>
+          </section>
+          <section class="box-dondoc mt-8 relative">
+            <article class="story w-[300px] h-[146px] overflow-auto" style="background: url(./img/bg-dondoc.png) center center no-repeat;">
+              <figure class="story-thu w-[135px] h-[210px] absolute right-4 bottom-[-80px]">
+                <a class="flex w-full h-[150px]" style="transition: .5s;" title="Số 13653 ngày 5-7-2023">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="	https://photo-cms-baonghean.epicdn.me/115x145/Uploaded/2023/dbkxrkslxk/2023_07_06/1-7815.jpg" alt="Số 13653 ngày 5-7-2023">
+                </a>
+              </figure>
+              <div class="story_tag absolute font-medium text-lg uppercase left-[-12px] top-[16px] w-fit h-[45px]" style="color: #fff;
+              background: url(./img/tag-dondoc.png) left -5px center/130px 45px no-repeat; padding: 4px 12px;">
+                <a href="" style="text-decoration: none; background-color: transparent;" title="Đọc báo in">Đọc báo in</a>
+              </div>
+              <h2 class="story_heading block text-2xl" style="font-weight: bold; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px;">
+                <a class="block absolute max-w-[120px] text-lg bottom-[25px] left-[21px]" style="color: #fff; transition: .5s;" href="" title="Số 13653 ngày 5-7-2023">Số 13653 ngày 5-7-2023</a>
+              </h2>
+            </article>
+          </section>
+          <div class="mt-6 w-[300px] mx-auto">
+            <a href="" target="_blank" style="color: #212529; text-decoration: none; background-color: transparent;">
+              <img class="max-w-full h-[100px] w-[300px]" src="./img/banner_bao_ve_nen_tang_tu_tuong_cua_dang29436616_1172021.png" alt="Banner nền tư tưởng của Đảng _Desktop" >
+            </a>
+          </div>
+          <div class="box-link mt-8">
+            <h3 class="box-heading my-0">
+              <span class="title uppercase font-medium flex items-center" style="font-size: 18px; color: #000; line-height: 27px;">
+                <i class="fa-solid fa-paperclip" style="margin-right: 12px;"></i>Liên kết website
+              </span>
+            </h3>
+            <div class="box-content">
+              <select class="select-web w-[310px] h-[38px] p-[8px] font-semibold outline-0 text-sm appearance-none uppercase" style="border: 1px solid #e9ecef; background: url(./img/arrow-down.png) center right 8px/8px no-repeat; color: #495057;">
+                <option value="- Chọn website -" selected disabled hidden>- Chọn Website -</option>
+                <option value="">Báo Nhân dân</option>
+                <option value="">Báo QĐND</option>
+                <option value="">Người Lao Động</option>
+              </select>
+            </div>
+          </div>
+          <div class="box-tag mt-8">
+            <h3 class="box-heading my-0">
+              <span class="title font-medium text-lg uppercase items-center flex" style="color: #000">Xu hướng đọc</span>
+            </h3>
+            <div class="box-content mt-[8px] flex" style="flex-wrap: wrap;">
+              <a href="" title="Nghệ An">#Nghệ An</a>
+              <a href="" title="Nghệ An">#Sông Lam Nghệ An</a>
+              <a href="" title="Nghệ An">#Sân bay Vinh</a>
+              <a href="" title="Nghệ An">#HĐND tỉnh Nghệ An</a>
+              <a href="" title="Nghệ An">#Đội tuyển nữ Việt Nam</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner-show w-[728px] mx-auto mt-[40px] mb-[50px] relative overflow-hidden">
+        <a href="" target="_blank">
+          <img class="mt-6 h-[90px] w-[728px]" src="./img/bannerximangsonglam23165081_2732020.gif" alt="Banner Xi măng Sông Lam">
+        </a>
+      </div>
+      <div class="short-video mt-[25px]" style="padding: 50px 30px; background: url(./img/shorts-video.png) center center no-repeat;">
+        <h3 class="box-heading relative">
+          <a class="title font-normal ml-[400px] relative w-fit p-[20px] z-1 m-auto" style="font-family: Pattaya; font-size: 52px; line-height: 72px; color: #fff;background: #0f438b;" href="" title="Short Video">Short Video</a>
+        </h3>
+        
+        <div class="grid grid-cols-5">
+          <div class="col-span-5">
+            <div class="box-content grid mt-[40px]" style="grid-template-columns: repeat(5,1fr);">
+              <article class="short-video-item">
+                <figure class="">
+                  <a class="flex w-full" style="transition: .5s;" title="Gay cấn những pha chọi bò ở vùng cao Kỳ Sơn">
+                    <img class="w-[195px] h-[300px] indent-[-9999px]" style="transition: .5s;" src="./img/short-bna-choi-bo-o-ky-son-8539.png" alt="Gay cấn những pha chọi bò ở vùng cao Kỳ Sơn">
+                  </a>
+                </figure>
+                <div class="story_meta mt-[12px]">
+                  <a href="" class="title-cate font-semibold text-base uppercase" title="Short Video" style=" color: #ced4da;">Short Video</a>
+                  <time class="time text-sm" style="color: #adb5bd;" datetime="2023-07-05T20:52:42+0700">05/07/2023 20:52</time>
+                </div>
+                <h2 class="story_heading mt-[8px]">
+                  <a class="font-bold text-base" style="color: #fff; transition: .5s;" title="Gay cấn những pha chọi bò ở vùng cao Kỳ Sơn">Gay cấn những pha chọi bò ở vùng cao Kỳ Sơn</a>
+                </h2>
+              </article>
+              <article class="short-video-item">
+                <figure class="">
+                  <a class="flex w-full" style="transition: .5s;" title="Điểm tin ngày 5/7">
+                    <!-- <i class="fa-solid fa-play" style="color: #fff; bottom: 19px; top: auto;"></i> -->
+                    <img class="w-[195px] h-[300px] indent-[-9999px] " style="transition: .5s;" src="./img/diemtin-3980.jpg" alt="Điểm tin ngày 5/7">
+                  </a>
+                </figure>
+                <div class="story_meta mt-[12px]">
+                  <a href="" class="title-cate font-semibold text-base uppercase" title="Short Video" style="color: #ced4da;">Short Video</a>
+                  <time class="time text-sm" style="color: #adb5bd;" datetime="2023-07-05T20:52:42+0700">05/07/2023 20:52</time>
+                </div>
+                <h2 class="story_heading mt-[8px]">
+                  <a class="font-bold text-base" style="color: #fff; transition: .5s;" title="Điểm tin ngày 5/7">Điểm tin ngày 5/7</a>
+                </h2>
+              </article>
+              <article class="short-video-item">
+                <figure class="">
+                  <a class="flex w-full" style="transition: .5s;" title="Mang 2 bánh hêrôin, 6.000 viên ma tuý đi tiêu thụ thì bị tóm gọn">
+                    <!-- <i class="fa-solid fa-play" style="color: #fff; left: 12px; bottom: 19px; top: auto;"></i> -->
+                    <img class="w-[195px] h-[300px] indent-[-9999px] " style="transition: .5s;" src="./img/matuy-xb-558.jpg" alt="Mang 2 bánh hêrôin, 6.000 viên ma tuý đi tiêu thụ thì bị tóm gọn">
+                  </a>
+                </figure>
+                <div class="story_meta mt-[12px]">
+                  <a href="" class="title-cate font-semibold text-base uppercase" title="Short Video" style="color: #ced4da;">Short Video</a>
+                  <time class="time text-sm" style="color: #adb5bd;" datetime="2023-07-05T20:52:42+0700">05/07/2023 20:52</time>
+                </div>
+                <h2 class="story_heading mt-[8px]">
+                  <a class="font-bold text-base" style="color: #fff; transition: .5s;" title="Mang 2 bánh hêrôin, 6.000 viên ma tuý đi tiêu thụ thì bị tóm gọn">Mang 2 bánh hêrôin, 6.000 viên ma tuý đi tiêu thụ thì bị tóm gọn</a>
+                </h2>
+              </article>
+              <article class="short-video-item">
+                <figure class="">
+                  <a class="flex w-full" style="transition: .5s;" title="Sắp thanh tra thêm 10 doanh nghiệp bảo hiểm">
+                    <!-- <i class="fa-solid fa-play" style="color: #fff; left: 12px; bottom: 19px; top: auto;"></i> -->
+                    <img class="w-[195px] h-[300px] indent-[-9999px] " style="transition: .5s;" src="./img/baohiem-5802 (1).jpg" alt="Sắp thanh tra thêm 10 doanh nghiệp bảo hiểm">
+                  </a>
+                </figure>
+                <div class="story_meta mt-[12px]">
+                  <a href="" class="title-cate font-semibold text-base uppercase" title="Short Video" style="color: #ced4da;">Short Video</a>
+                  <time class="time text-sm" style="color: #adb5bd;" datetime="2023-07-05T20:52:42+0700">05/07/2023 20:52</time>
+                </div>
+                <h2 class="story_heading mt-[8px]">
+                  <a class="font-bold text-base" style="color: #fff; transition: .5s;" title="Sắp thanh tra thêm 10 doanh nghiệp bảo hiểm">Sắp thanh tra thêm 10 doanh nghiệp bảo hiểm</a>
+                </h2>
+              </article>
+              <article class="short-video-item">
+                <figure class="">
+                  <a class="flex w-full" style="transition: .5s;" title="3 cô gái Nghệ An lên đường tham dự World Cup 2023">
+                    <!-- <i class="fa-solid fa-play" style="color: #fff; left: 12px; bottom: 19px; top: auto;"></i> -->
+                    <img class="w-[195px] h-[300px] indent-[-9999px] " style="transition: .5s;" src="./img/3-co-gai-nghe-an-4171.png" alt="3 cô gái Nghệ An lên đường tham dự World Cup 2023">
+                  </a>
+                </figure>
+                <div class="story_meta mt-[12px]">
+                  <a href="" class="title-cate font-semibold text-base uppercase" title="Short Video" style="color: #ced4da;">Short Video</a>
+                  <time class="time text-sm" style="color: #adb5bd;" datetime="2023-07-05T20:52:42+0700">05/07/2023 20:52</time>
+                </div>
+                <h2 class="story_heading mt-[8px]">
+                  <a class="font-bold text-base" style="color: #fff; transition: .5s;" title="3 cô gái Nghệ An lên đường tham dự World Cup 2023">3 cô gái Nghệ An lên đường tham dự World Cup 2023</a>
+                </h2>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="zone-2 flex flex-wrap mt-5 space-between">
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Nghe An News">Nghe An News</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Visiting the Central Region’s largest eel farm in Nghe An">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-van-truong-2-5570.jpeg" alt="Visiting the Central Region’s largest eel farm in Nghe An">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Visiting the Central Region’s largest eel farm in Nghe An">Visiting the Central Region’s largest eel farm in Nghe An</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529; line-height: 160%;" title="Nghe An: Typical achievements in the first half of 2023">Nghe An: Typical achievements in the first half of 2023</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="The political security and social order in Nghe An continue to be ensured">The political security and social order in Nghe An continue to be ensured </a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Thời sự">Thời sự</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Rà soát, xử lý các vi phạm trong sử dụng đất của doanh nghiệp">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-3507-01-5881.jpeg" alt="Rà soát, xử lý các vi phạm trong sử dụng đất của doanh nghiệp">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Rà soát, xử lý các vi phạm trong sử dụng đất của doanh nghiệp">Rà soát, xử lý các vi phạm trong sử dụng đất của doanh nghiệp</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Sẽ bố trí thêm 993 tỷ đồng phục vụ giải phóng mặt bằng đại dự án Bản Mồng">Sẽ bố trí thêm 993 tỷ đồng phục vụ giải phóng mặt bằng đại dự án Bản Mồng</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Video: Giám đốc Sở Nội vụ Nghệ An làm rõ nguyên nhân chậm trễ tuyển dụng giáo viên mầm non hợp đồng vào biên chế ">Video: Giám đốc Sở Nội vụ Nghệ An làm rõ nguyên nhân chậm trễ tuyển dụng giáo viên mầm non hợp đồng vào biên chế </a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Suy ngẫm">Suy ngẫm</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Rà soát, xử lý các vi phạm trong sử dụng đất của doanh nghiệp">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-mot-diem-kinh-doanh-tren-duong-le-mao-keo-dai-con-dua-ca-chau-cay-canh-go-muc-ra-de-ngay-long-duong-voi-muc-dich-khong-cho-do-xe-dn-42 (1).jpg" alt="Ăn xem nồi, ngồi xem hướng...">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Ăn xem nồi, ngồi xem hướng...">Ăn xem nồi, ngồi xem hướng...</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Học ngành gì để nhanh giàu? ">Học ngành gì để nhanh giàu? </a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Bố mẹ thích gì? ">Bố mẹ thích gì? </a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Xây dựng Đảng">Xây dựng Đảng</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Rà soát, xử lý các vi phạm trong sử dụng đất của doanh nghiệp">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/co-giao-nguyen-thi-nhung-phai-truong-mam-non-cua-nam-da-vao-nghe-6-nam-nhung-van-dang-la-giao-vien-mam-non-thuoc-dien-06-09-7251-6599-4286.jpeg" alt="Mầm non">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="UBND cấp huyện ở Nghệ An phải hoàn thành tuyển dụng giáo viên trước ngày 31/8/2023">UBND cấp huyện ở Nghệ An phải hoàn thành tuyển dụng giáo viên trước ngày 31/8/2023</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Video: Tiếp tục các lộ trình, thủ tục cần thiết để thực hiện Dự án Công viên nghĩa trang sinh thái Vĩnh hằng Nghệ An">Video: Tiếp tục các lộ trình, thủ tục cần thiết để thực hiện Dự án Công viên nghĩa trang sinh thái Vĩnh hằng Nghệ An</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Nghệ An đang xây dựng cơ chế, chính sách cho cán bộ không chuyên cấp xã, xóm">Nghệ An đang xây dựng cơ chế, chính sách cho cán bộ không chuyên cấp xã, xóm</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Phóng sự">Phóng sự</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Xóm trưởng 'trọn việc đạo, thạo việc đời'">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/ong-nguyen-van-chinh-xom-truong-xom-10-xa-nghi-kim-tro-chuyen-voi-nguoi-dan-anh-kl2-1161.jpg" alt="Xóm trưởng 'trọn việc đạo, thạo việc đời">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Xóm trưởng 'trọn việc đạo, thạo việc đời'">Xóm trưởng 'trọn việc đạo, thạo việc đời'</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Đừng bê tông hóa đảo ngọc Lan Châu!">Đừng bê tông hóa đảo ngọc Lan Châu!</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Phát triển Đảng trong trường học: Gieo ‘hạt giống’ tốt để có ‘quả ngọt’!">Phát triển Đảng trong trường học: Gieo ‘hạt giống’ tốt để có ‘quả ngọt’!</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <div class="banner w-full">
+          <div class="banner-show w-[728px] mx-auto mt-[40px] mb-[50px] relative overflow-hidden">
+            <a href="" style="color: #212529; text-decoration: none; background-color: transparent;" target="_blank">
+            <img class="max-w-full w-[728px] h-[90px]" src="./img/vidabeer-banner-web-1827.png" alt="Banner_Bia_Vida"> 
+            </a>
+          </div>
+        </div>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Kinh tế">Kinh tế</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title=" Selectum Noa Resort Cam Ranh - resort đẳng cấp quốc tế">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-2-5732.jpg" alt=" Selectum Noa Resort Cam Ranh - resort đẳng cấp quốc tế ">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title=" Selectum Noa Resort Cam Ranh - resort đẳng cấp quốc tế ">Selectum Noa Resort Cam Ranh - resort đẳng cấp quốc tế </a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Cảnh báo cháy rừng đến cấp cực kỳ nguy hiểm tại Nghệ An từ ngày 6 - 15/7">Cảnh báo cháy rừng đến cấp cực kỳ nguy hiểm tại Nghệ An từ ngày 6 - 15/7</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Giật mình với giá thịt bò Úc thượng hạng bán trên 'chợ mạng'">Giật mình với giá thịt bò Úc thượng hạng bán trên 'chợ mạng'</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Xã hội">Xã hội</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Khởi công xây dựng dự án tu bổ, tôn tạo và nâng cấp Di tích đền Cửa Lũy, huyện Anh Sơn">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-4-9435.jpg" alt="Khởi công xây dựng dự án tu bổ, tôn tạo và nâng cấp Di tích đền Cửa Lũy, huyện Anh Sơn">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Khởi công xây dựng dự án tu bổ, tôn tạo và nâng cấp Di tích đền Cửa Lũy, huyện Anh Sơn">Khởi công xây dựng dự án tu bổ, tôn tạo và nâng cấp Di tích đền Cửa Lũy, huyện Anh Sơn</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Thiêng liêng Lễ chào cờ 'Tôi yêu Tổ quốc tôi' nơi biên cương xứ Nghệ">Thiêng liêng Lễ chào cờ 'Tôi yêu Tổ quốc tôi' nơi biên cương xứ Nghệ</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Manulife Việt Nam chi trả 3,6 tỷ đồng quyền lợi bảo hiểm cho khách hàng ở Nghệ An">Manulife Việt Nam chi trả 3,6 tỷ đồng quyền lợi bảo hiểm cho khách hàng ở Nghệ An</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Bất động sản">Bất động sản</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Yếu tố nào định vị bất động sản truyền đời của giới nhà giàu?">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/3-6938.png" alt="Yếu tố nào định vị bất động sản truyền đời của giới nhà giàu?">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Yếu tố nào định vị bất động sản truyền đời của giới nhà giàu?">Yếu tố nào định vị bất động sản truyền đời của giới nhà giàu?</a>
+              </h2> 
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Nhu cầu bất động sản tại Nghệ An sẽ tăng mạnh trong năm 2023">Nhu cầu bất động sản tại Nghệ An sẽ tăng mạnh trong năm 2023</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Tiền gửi tiết kiệm sắp đáo hạn sẽ dịch chuyển vào bất động sản?">Tiền gửi tiết kiệm sắp đáo hạn sẽ dịch chuyển vào bất động sản?</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Giáo dục">Giáo dục</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="UBND cấp huyện ở Nghệ An phải hoàn thành tuyển dụng giáo viên trước ngày 31/8/2023">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/co-giao-nguyen-thi-nhung-phai-truong-mam-non-cua-nam-da-vao-nghe-6-nam-nhung-van-dang-la-giao-vien-mam-non-thuoc-dien-06-09-7251-6599-4286 (1).jpeg" alt="Yếu tố nào định vị bất động sản truyền đời của giới nhà giàu?">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="UBND cấp huyện ở Nghệ An phải hoàn thành tuyển dụng giáo viên trước ngày 31/8/2023">UBND cấp huyện ở Nghệ An phải hoàn thành tuyển dụng giáo viên trước ngày 31/8/2023</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Điểm danh những địa phương chậm trễ tuyển dụng giáo viên mầm non hợp đồng vào biên chế">Điểm danh những địa phương chậm trễ tuyển dụng giáo viên mầm non hợp đồng vào biên chế</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Có biên chế, nhưng gần 1.000 giáo viên mầm non vẫn ngóng chờ tuyển dụng">Có biên chế, nhưng gần 1.000 giáo viên mầm non vẫn ngóng chờ tuyển dụng</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Pháp luật">Pháp luật</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Đình chỉ công tác cán bộ công an bị tố đánh người">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/01-3328.jpeg" alt="Ông Huyện bị cán bộ Công an xã Hòa Phòng kẹp cổ tại trụ sở.">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Đình chỉ công tác cán bộ công an bị tố đánh người">Đình chỉ công tác cán bộ công an bị tố đánh người</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Xác minh nhóm thanh niên đập phá máy bán hàng tự động tại Thành phố Vinh ">Xác minh nhóm thanh niên đập phá máy bán hàng tự động tại Thành phố Vinh </a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Mất niềm tin về Dự án Quần thể du lịch Lan Châu - Song Ngư">Mất niềm tin về Dự án Quần thể du lịch Lan Châu - Song Ngư</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <div class="banner w-full">
+          <div class="banner-show w-[728px] mx-auto mt-[40px] mb-[50px] relative overflow-hidden">
+            <a href="" style="color: #212529; text-decoration: none; background-color: transparent;" target="_blank">
+            <img class="max-w-full w-[728px] h-[90px]" src="./img/banner_chinhsachchitramoitruongrung4851237_282018.jpg" alt="Banner_Quy BVPT Rung"> 
+            </a>
+          </div>
+        </div>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Quốc tế">Quốc tế</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Tiết lộ kế hoạch khủng khiếp của Tổng thống Zelensky">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/capture-8869.png" alt="Tiết lộ kế hoạch khủng khiếp của Tổng thống Zelensky">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Tiết lộ kế hoạch khủng khiếp của Tổng thống Zelensky">Tiết lộ kế hoạch khủng khiếp của Tổng thống Zelensky</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Bộ Quốc phòng Nga lên tiếng về tuyên bố tổn thất xe bọc thép Nga của đô đốc Anh ">Bộ Quốc phòng Nga lên tiếng về tuyên bố tổn thất xe bọc thép Nga của đô đốc Anh</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Chiến dịch quân sự đặc biệt sẽ kết thúc trong vài ngày nếu NATO ngừng chuyển vũ khí cho Ukraine">Chiến dịch quân sự đặc biệt sẽ kết thúc trong vài ngày nếu NATO ngừng chuyển vũ khí cho Ukraine</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Podcast">Podcast</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVIII: Quang Anh 2">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/282-cms-7699.png" alt="Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVIII: Quang Anh 2">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVIII: Quang Anh 2">Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVIII: Quang Anh 2</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVIII: Quang Anh 1">Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVIII: Quang Anh 1</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVII: Xử án">Đọc truyện đêm khuya: Quân khu Nam Đồng - Phần XXVII: Xử án</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Xe">Xe</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Tác dụng của túi khí ô tô ít người biết">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/tui-khi-o-to-la-gi-10102595-7221.jpeg" alt="Tác dụng của túi khí ô tô ít người biết">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Tác dụng của túi khí ô tô ít người biết">Tác dụng của túi khí ô tô ít người biết</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Những loại cần số khó dùng nhất trên ô tô">Những loại cần số khó dùng nhất trên ô tô</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Cách làm sạch kính chắn gió ô tô đơn giản mà hiệu quả bất ngờ">Cách làm sạch kính chắn gió ô tô đơn giản mà hiệu quả bất ngờ</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Thể thao">Thể thao</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Sông Lam Nghệ An ‘fairplay’ nhất lượt đi V.League 2023">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-anh-2-chung-le-6272.jpeg" alt="Sông Lam Nghệ An ‘fairplay’ nhất lượt đi V.League 2023">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Sông Lam Nghệ An ‘fairplay’ nhất lượt đi V.League 2023">Sông Lam Nghệ An ‘fairplay’ nhất lượt đi V.League 2023</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Quế Ngọc Hải thừa nhận bị quá tải; Báo chí Anh tin Đội tuyển nữ Việt Nam có bước ngoặt tại World Cup 2023">Quế Ngọc Hải thừa nhận bị quá tải; Báo chí Anh tin Đội tuyển nữ Việt Nam có bước ngoặt tại World Cup 2023</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Những tín hiệu tích cực của Sông Lam Nghệ An">Những tín hiệu tích cực của Sông Lam Nghệ An</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Chuyển đổi số">Chuyển đổi số</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Hơn 100 doanh nghiệp vùng Phủ Quỳ được trang bị kiến thức chuyển đổi số và tư vấn thuế">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-cac-dai-bieu-8856.jpg" alt="Đại biểu và doanh nghiệp dự hội thảo chuyển đổi số tại Thị xã Thái Hòa">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Hơn 100 doanh nghiệp vùng Phủ Quỳ được trang bị kiến thức chuyển đổi số và tư vấn thuế">Hơn 100 doanh nghiệp vùng Phủ Quỳ được trang bị kiến thức chuyển đổi số và tư vấn thuế</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Thảnh thơi giao dịch - Thỏa thích nhận quà cùng BAC A BANK">Thảnh thơi giao dịch - Thỏa thích nhận quà cùng BAC A BANK</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Trí tuệ nhân tạo giúp thay đổi ngành Giáo dục như thế nào?">Trí tuệ nhân tạo giúp thay đổi ngành Giáo dục như thế nào?</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px] mt-[40px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="eMagazine">eMagazine</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Bệnh viện Trường Đại học Y khoa Vinh: 15 năm vì sức khỏe cộng đồng">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/benh-vien-truong-dai-hoc-y-khoa-vinh-add-3136.jpg" alt="Bệnh viện Trường Đại học Y khoa Vinh: 15 năm vì sức khỏe cộng đồng">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Bệnh viện Trường Đại học Y khoa Vinh: 15 năm vì sức khỏe cộng đồng">Bệnh viện Trường Đại học Y khoa Vinh: 15 năm vì sức khỏe cộng đồng</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Đảo Lan Châu bị bê tông hóa: Đã từng có cảnh báo!">Đảo Lan Châu bị bê tông hóa: Đã từng có cảnh báo!</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Xứng đáng là điểm tựa vững vàng của đoàn viên">Xứng đáng là điểm tựa vững vàng của đoàn viên</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px] mt-[40px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Sức khỏe">Sức khỏe</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Tác hại của coca cola không phải ai cũng biết">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/uong-coca-gay-hai-the-naopng-9577.jpg" alt="Tác hại của coca cola không phải ai cũng biết">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Tác hại của coca cola không phải ai cũng biết">Tác hại của coca cola không phải ai cũng biết</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Người gầy, làm cách nào để tăng cân?">Người gầy, làm cách nào để tăng cân?</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Những món ăn không nên kết hợp với nhau">Những món ăn không nên kết hợp với nhau</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px] mt-[40px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Giải trí">Giải trí</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Luyến 'Cuộc đời vẫn đẹp sao' lần đầu kể về những góc khuất ít biết">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/luyen-cuoc-doi-van-dep-sao-lan-dau-ke-ve-nhung-goc-khuat-it-biet-436-2292.jpg" alt="Luyến 'Cuộc đời vẫn đẹp sao' lần đầu kể về những góc khuất ít biết">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Luyến 'Cuộc đời vẫn đẹp sao' lần đầu kể về những góc khuất ít biết">Luyến 'Cuộc đời vẫn đẹp sao' lần đầu kể về những góc khuất ít biết</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Chi Bảo sau khi giải nghệ: Viên mãn bên vợ kém 16 tuổi, ở biệt thự triệu đô">Chi Bảo sau khi giải nghệ: Viên mãn bên vợ kém 16 tuổi, ở biệt thự triệu đô</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Trizzie Phương Trinh tiết lộ bất ngờ về người mới của Bằng Kiều">Trizzie Phương Trinh tiết lộ bất ngờ về người mới của Bằng Kiều</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mr-[25px] mt-[40px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Vô xứ Nghệ">Vô xứ Nghệ</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title="Ngắm mây trên bản biên giới Phà Chiếng">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-binh-minh-2870.jpg" alt="Mây trắng">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title="Ngắm mây trên bản biên giới Phà Chiếng">Ngắm mây trên bản biên giới Phà Chiếng</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Phấn đấu xây dựng Anh Sơn phát triển nhanh và bền vững, khẳng định vị thế tốp đầu các huyện miền núi của tỉnh">Phấn đấu xây dựng Anh Sơn phát triển nhanh và bền vững, khẳng định vị thế tốp đầu các huyện miền núi của tỉnh</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Ca sĩ Võ Phương Thuỷ: Ngọt ngào giọng hát dân ca">Ca sĩ Võ Phương Thuỷ: Ngọt ngào giọng hát dân ca</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+        <section class="box-story w-[210px] mt-[40px]">
+          <h3 class="box-heading">
+            <a class="title font-medium text-xl uppercase" style="color: #000;" href="" title="Bạn cần biết">Bạn cần biết</a>
+          </h3>
+          <div class="box-content mt-[12px]">
+            <article class="story">
+              <figure class=" w-[210px]">
+                <a class="flex w-full" style="transition: .5s; color: #212529; text-decoration: transparent;" title=" Selectum Noa Resort Cam Ranh - resort đẳng cấp quốc tế ">
+                <img class="w-full indent-[-9999px]" style="transition: .5s;" src="./img/bna-2-5732 (1).jpg" alt=" Selectum Noa Resort Cam Ranh - resort đẳng cấp quốc tế ">
+                </a>
+              </figure>
+              <h2 class="story_heading my-0">
+                <a class="font-bold text-lg pt-[8px]" title=" Selectum Noa Resort Cam Ranh - resort đẳng cấp quốc tế "> Selectum Noa Resort Cam Ranh - resort đẳng cấp quốc tế </a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Quy hoạch Điện VIII – tiền đề phát triển nguồn năng lượng tái tạo bền vững tại Việt Nam">Quy hoạch Điện VIII – tiền đề phát triển nguồn năng lượng tái tạo bền vững tại Việt Nam</a>
+              </h2>
+            </article>
+            <article class="story">
+              <h2 class="story_heading my-0">
+                <a class="font-normal text-base" style="color: #212529;" title="Manulife Việt Nam chi trả 3,6 tỷ đồng quyền lợi bảo hiểm cho khách hàng ở Nghệ An">Manulife Việt Nam chi trả 3,6 tỷ đồng quyền lợi bảo hiểm cho khách hàng ở Nghệ An</a>
+              </h2>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer p-[20px]" style="background: #cf2228;">
+    <div class="container flex space-between w-[975px] max-w-[975px] mx-auto">
+      <div class="wrap d-flex items-center flex">
+        <a href="" class="logo mr-[20px] block w-[106px] min-w-[160px] h-[160px] cursor-pointer" style="font-size: 0; background: url(./img/logo-footer.png) center center/160px no-repeat;" title="Báo Nghệ An điện tử - Tin tức cập nhật trong ngày">logo</a>
+        <div class="info text-left">
+          <p>
+            <span class="bold font-bold">Tổng biên tập:</span>
+            Ngô Đức Kiên
+          </p>
+          <p>
+            <span class="bold font-bold">Địa chỉ:</span>
+            Số 378 Đại lộ Lê Nin, Thành phố Vinh
+          </p>
+          <p>
+            <span class="bold font-bold">Điện thoại:</span>
+            (023)83.588138; 
+            <span class="bold font-bold">Fax:</span>
+            (023)83.847898
+          </p>
+          <p>
+            <span class="bold font-bold">Email:</span>
+            bna.pdt@gmail.com
+          </p>
+          <p>
+            <span class="bold font-bold">QC:</span>
+            (023)88 600006; 
+            <span class="bold font-bold">Email quảng cáo:</span>
+            qcbaonghean@gmail.com
+          </p>
+          <span class="text-bold">Powered by ePi Technologies</span>
+        </div>  
+      </div>
+      <div class="info text-right">
+        <p>
+          <span class="bold font-bold">Báo Nghệ An điện tử</span>
+          - Cơ quan chủ quản: Tỉnh ủy Nghệ An
+        </p>
+        <p>
+          Giấy phép hoạt động báo điện tử số: 
+          <span class="bold font-bold">153/GP-BTTTT</span>
+        </p>
+        <p>Bộ Thông tin và Truyền thông cấp ngày 24-03-2022</p>
+        <p>© Bản quyền thuộc về Báo Nghệ An.</p>
+        <p class="text-bold">
+          Mọi hình thức sao chép lại thông tin, hình ảnh phải được sự đồng ý bằng văn bản.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var today = new Date();
+
+    // Lấy ngày trong tuần
+    var days = ["Chủ Nhật", "Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy"];
+    var dayOfWeek = days[today.getDay()];
+
+    // Lấy ngày, tháng, năm
+    var date = today.getDate();
+    var month = today.getMonth() + 1; // Tháng tính từ 0 đến 11
+    var year = today.getFullYear();
+
+    // Lấy giờ và phút
+    var hours = today.getHours();
+    var minutes = today.getMinutes();
+
+    // Tạo chuỗi ngày giờ
+    var dateTime = dayOfWeek + ', ' + addLeadingZero(date) + '/' + addLeadingZero(month) + '/' + year + ' - ' + addLeadingZero(hours) + ':' + addLeadingZero(minutes) + ' GMT+7';
+
+    document.getElementById("date").innerHTML = dateTime;
+
+    // Hàm để thêm số 0 vào trước số nếu số đó nhỏ hơn 10
+    function addLeadingZero(number) {
+      return number < 10 ? '0' + number : number;
+    }
+
+  </script>
+
+</body>
+
+</html>
